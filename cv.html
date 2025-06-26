@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body>
+    
+  <!-- navbar  -->
+   <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-3 fixed-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="">Maria Eleni Barmpopoulou</a>
+
+      <button class="navbar-toggler" 
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      > <span class="navbar-toggler-icon">
+        </span>
+      </button>
+
+      <!-- menu  -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle" 
+              href=""
+              role="button"
+              data-bs-toggle="dropdown">About Me</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">Profile</a></li>
+              <li><a class="dropdown-item" href="">Contact</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" 
+              href=""
+              role="button"
+              data-bs-toggle="dropdown">Education</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">Bachelor</a></li>
+              <li><a class="dropdown-item" href="">Bootcamp</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" 
+              href=""
+              role="button"
+              data-bs-toggle="dropdown">Work Experience</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">Cetec</a></li>
+              <li><a class="dropdown-item" href="">ZCA-EnBuild</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div> 
+    
+    </div>
+   </nav>
+
+   <!-- header -->
+    <header class="container-fluid ">
+      <div class="container-lg py-5">
+        <h1 class="text-center py-5">About me</h1>
+
+        <div class="d-flex flex-column flex-md-row gap-4 ">
+          <div class="rounded p-4 custom-box flex-grow-1 custom-box">
+          <!-- left box -->
+            <h3>Profile</h3>
+            <p class="text-white">I am a veeery interesrting person , i need money to survive , hire me ASAP!! I can entertain you, I swear. I can pretend that your life has a meaning and that you matter enough although we will all become star dust</p>
+            <h3>Hobbies & Interests</h3>
+            <p class="text-white"> Cycling, hiking, bioscience, sustainability, AI , technology , neuroscience</p>
+            
+            <div class="row align-items-center mt-4">
+              <div class="col-md-4">
+                <img class="img-fluid rounded" src="./me-photo-cropped.JPG" alt="photo of me">
+              </div>
+              <div class="col-md-8 text-white">
+                <h5 class="text-dark">Contact:</h5>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Email:</strong> marialenabarbopoulou@gmail.com</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" class="text-white text-decoration-underline">github.com/Marilo0</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div  class="rounded p-4 custom-box flex-grow-1 custom-box">
+          <!-- right box -->
+            <h3>Skills</h3>
+            <h5>Soft skills</h5>
+            <ul class="text-white">
+              <li>Abstract & Critical Thinker</li>
+              <li>Creative Problem-Solver</li>
+              <li>Adaptable</li>
+              <li>Collabarative</li>
+              </li>
+            </ul>
+            <h5>Hard Skills</h5>
+            <ul class="text-white">
+              <li>Design Software (AutoCAD, ProjeCAD, CADware)</li>
+              <li>Microsoft Office</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul class="text-white">
+              <li>Greek (Native)</li>
+              <li>English (Fluent)</li>
+              <li>Italian (Basic)</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+
+
+
+
+
+
+
+    <style>
+      header {
+        background-image: url(../img/SL-011719-17920-65.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+
+      body{
+        font-family: 'Times New Roman', Times, serif;
+        
+      }
+
+
+        .custom-box {
+          background-color: rgba(33, 37, 41, 0.5); /* lighter and more transparent */
+          box-shadow: 0 0 8px rgba(0,0,0,0.15);
+          transition: background-color 0.3s ease;
+          flex-basis: 0;
+          /* flex-grow: 1; I ve put it with bootstrap class */
+        }
+
+        .custom-box:hover {
+          background-color: rgba(33, 37, 41, 0.7); /* slightly darker on hover */
+        }
+
+    </style>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
